@@ -21,9 +21,6 @@
     }
   ],
   
-  "flags": {
-    "canUpload": true
-  },
   "relationships": {
     "systems": [{
       "id": "pf2e",
@@ -116,6 +113,7 @@
   ],
   
   "flags" : {
+    "canUpload": true,
 	  "runewars-house-rules": {
 		  "pf2e-homebrew": {
 		  "featTraits": {
