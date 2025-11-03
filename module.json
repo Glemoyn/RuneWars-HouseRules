@@ -116,6 +116,11 @@
     "canUpload": true,
 	  "runewars-house-rules": {
 		  "pf2e-homebrew": {
+		  "itemTraits" :{
+		       "signature": {
+					  "label": "Signature Item",
+					  "description": " Items with this trait have been crafted by a master who has stamped it with their signature stamp. This gives the item a unique quirk only found on items by this crafter. In Addition, the base price to purchase ot sell an item with the trait is gererally higher."
+			  },
 		  "featTraits": {
 			  "rune-touched":{
 				  "label": "Rune Touched",
