@@ -3,8 +3,8 @@
   "title": "RuneWars House Rules",
   "version": "0.5",
    "url": "https://github.com/Glemoyn/RuneWars-HouseRules",
-  "manifest": "https://raw.githubusercontent.com/Glemoyn/RuneWars-HouseRules/master/module.json",
-  "download": "https://github.com/Glemoyn/RuneWars-HouseRules/archive/refs/heads/main.zip"
+  "manifest": "https://raw.githubusercontent.com/Glemoyn/RuneWars-HouseRules/refs/heads/main/module.json",
+  "download": "https://github.com/Glemoyn/RuneWars-HouseRules/archive/refs/heads/main.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
