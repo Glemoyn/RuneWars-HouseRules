@@ -1,0 +1,149 @@
+{
+  "id": "runewars-house-rules",
+  "title": "RuneWars House Rules",
+  "version": "0.5",
+   "url": "https://github.com/Glemoyn/RuneWars-HouseRules",
+  "manifest": "https://raw.githubusercontent.com/Glemoyn/RuneWars-HouseRules/master/module.json",
+  "download": "https://github.com/Glemoyn/RuneWars-HouseRules/archive/refs/heads/main.zip"
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Module of house rules  in PF2E for house game called RuneWars</p>",
+  "authors": [
+    {
+      "name": "Glemoyn",
+      "flags": {}
+    },
+    {
+      "name": "Trennic",
+      "flags": {}
+    }
+  ],
+  
+  "flags": {
+    "canUpload": true
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "4.0.6"
+      }
+    }]
+  },
+  "packs": [
+  {
+		"label": "Feats",
+		"type": "Item",
+		"name": "runewar-feats",
+		"path": "./packs/runewar-feats",
+		"system": "pf2e",
+		"package": "runewars-house-rules",
+		"banner": "systems/pf2e/assets/compendium-banner/red.webp",
+		"ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+  },
+  { 
+		"label": "Spells",
+		"type": "Item",
+		"name": "runewar-spells",
+		"path": "./packs/runewar-spells",
+		"system": "pf2e",
+		"package": "runewars-house-rules",
+		"banner": "systems/pf2e/assets/compendium-banner/red.webp",
+		"ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }, 
+  { 
+		"label": "Items",
+		"type": "Item",
+		"name": "runewar-items",
+		"path": "./packs/runewar-items",
+		"system": "pf2e",
+		"package": "runewars-house-rules",
+		"banner": "systems/pf2e/assets/compendium-banner/red.webp",
+		"ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+	{
+		"label": "Effects",
+		"type": "Item",
+		"name": "runewar-effects",
+		"path": "./packs/runewar-effects",
+		"system": "pf2e",
+		"package": "runewars-house-rules",
+		"banner": "systems/pf2e/assets/compendium-banner/red.webp",
+		"ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+  },
+  {
+		"label": "Misc",
+		"type": "Item",
+		"name": "runewar-misc",
+		"path": "./packs/runewar-misc",
+		"system": "pf2e",
+		"package": "runewars-house-rules",
+		"banner": "systems/pf2e/assets/compendium-banner/red.webp",
+		"ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+  }
+  ],
+  
+  "packFolders":[
+   { "name": "RuneWar Comdendium",
+      "sorting": "m",
+      "packs": [
+        "runewar-items",
+		"runewar-spells",
+		"runewar-feats",
+		"runewar-effects",
+		"runewar-misc"
+      ]
+   }
+  ],
+  
+  "flags" : {
+	  "runewars-house-rules": {
+		  "pf2e-homebrew": {
+		  "featTraits": {
+			  "rune-touched":{
+				  "label": "Rune Touched",
+				  "description" : " Feats that have the Rune Touched trait can only be taken by a player who is Rune Touched."
+			  }
+		  },
+		"spellTraits": {
+			"rune-spell":{
+				  "label": "Rune Touched",
+				  "description" : " Spells with this trait can only be taken by a player who is Rune Touched."
+			  }
+        },
+		"creatureTraits": {
+			"rune-touched":{
+				"label": "Rune Touched",
+				"description": "You are one of Torag's chosen. When you die, Magrim places your soul in a new vessel, so you can complete Torag's task"
+			}
+		}      
+	  }
+	 } 
+   }
+
+
+
+
+
+
+
+}
