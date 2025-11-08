@@ -1,7 +1,7 @@
 {
   "id": "runewars-house-rules",
   "title": "RuneWars House Rules",
-  "version": "0.6",
+  "version": "0.61",
    "url": "https://github.com/Glemoyn/RuneWars-HouseRules",
   "manifest": "https://raw.githubusercontent.com/Glemoyn/RuneWars-HouseRules/refs/heads/main/module.json",
   "download": "https://github.com/Glemoyn/RuneWars-HouseRules/archive/refs/heads/main.zip",
